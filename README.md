@@ -1,5 +1,3 @@
-Certainly! Below is a detailed README file for your GitHub repository, explaining each step of your project, its purpose, and how to use it.
-
 ### README.md
 
 ```markdown
