@@ -247,7 +247,6 @@ The ROC AUC curve is plotted for the AdaBoostClassifier to visualize its perform
     plt.show()
     ```
 
-]
 
 ### requirements.txt
 
