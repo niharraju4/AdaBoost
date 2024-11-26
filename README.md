@@ -9,16 +9,14 @@ This project focuses on analyzing travel data to predict whether a customer will
 
 ## Table of Contents
 
-- [Installation](#installation)
-- [Dataset](#dataset)
-- [Data Cleaning](#data-cleaning)
-- [Feature Engineering](#feature-engineering)
-- [Model Training](#model-training)
-- [Hyperparameter Tuning](#hyperparameter-tuning)
-- [Evaluation](#evaluation)
-- [ROC AUC Curve](#roc-auc-curve)
-- [Contributing](#contributing)
-- [License](#license)
+1. [Installation](#installation)
+2. [Dataset](#dataset)
+3. [Data Cleaning](#data-cleaning)
+4. [Feature Engineering](#feature-engineering)
+5. [Model Training](#model-training)
+6. [Hyperparameter Tuning](#hyperparameter-tuning)
+7. [Evaluation](#evaluation)
+8. [ROC AUC Curve](#roc-auc-curve)
 
 ## Installation
 
@@ -249,20 +247,7 @@ The ROC AUC curve is plotted for the AdaBoostClassifier to visualize its perform
     plt.show()
     ```
 
-## Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Make your changes and commit them (`git commit -am 'Add new feature'`).
-4. Push to the branch (`git push origin feature-branch`).
-5. Create a new Pull Request.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-```
+]
 
 ### requirements.txt
 
@@ -277,34 +262,8 @@ plotly
 scikit-learn
 ```
 
-### Directory Structure
 
-Here is a suggested directory structure for your GitHub repository:
 
-```
-travel-data-analysis/
-│
-├── data/
-│   └── Travel.csv
-│
-├── notebooks/
-│   └── Travel_Data_Analysis.ipynb
-│
-├── src/
-│   └── data_cleaning.py
-│   └── feature_engineering.py
-│   └── model_training.py
-│   └── evaluation.py
-│
-├── .gitignore
-├── LICENSE
-├── README.md
-├── requirements.txt
-```
-
-### .gitignore
-
-Create a `.gitignore` file to specify which files and directories should be ignored by Git.
 
 ```txt
 # Byte-compiled / optimized / DLL files
